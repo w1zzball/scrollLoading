@@ -2,3 +2,31 @@ body{
     height: 30000px;
     overflow: scroll;
 }
+
+div.animX{
+    position: fixed;
+}
+
+#navbar{
+    position: fixed;
+}
+#test{
+    background-color: red;
+}
+
+#test2{
+    background-color: blue;
+    height: 200px;
+}
+
+#scroll-indicator{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: auto;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
